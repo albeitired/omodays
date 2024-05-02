@@ -1,0 +1,489 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714568344654513, "dur":1072, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344655587, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1714568344655646, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1714568344655667, "dur":234, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1714568344655920, "dur":407, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344656327, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344885794, "dur":92, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344885886, "dur":66, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344885952, "dur":32, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344885985, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886001, "dur":36, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886037, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886042, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886043, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886048, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886050, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886054, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886055, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886060, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886061, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886065, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886066, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886070, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886072, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886076, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886077, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886081, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886082, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886087, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886088, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886092, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886103, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344886121, "dur":1648, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714568344656075, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344656333, "dur":3257, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344659597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714568344659600, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344659651, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714568344659655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344660070, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714568344661586, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714568344661620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344661682, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714568344662395, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714568344662439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344662444, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714568344663169, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1714568344663211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344663215, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1714568344664049, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344664084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344664087, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344667843, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344667889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344667893, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344669075, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344669123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344669128, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344670205, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344670248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344670270, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344671361, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344671402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344671407, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344672904, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344672941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344672946, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344674022, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344674070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344674075, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344675465, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344675530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344675534, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344677388, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344677433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344677438, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344678994, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344679038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344679042, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344680722, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344680764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344680769, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344682686, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344682730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344682735, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344684775, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344684820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344684825, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344685814, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344685857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344685862, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344687586, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344687627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344687632, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344689716, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344689766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344689771, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344692659, "dur":192250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344884913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714568344884921, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714568344885768, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1714568344885769, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344656122, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344656343, "dur":3252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344659598, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714568344659684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344674932, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714568344675845, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344675882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344675887, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344677417, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344677461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344677467, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344679457, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344679497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344679509, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344681378, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344681415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344681435, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344683221, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344683260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344683265, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344685195, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344685231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344685235, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344686755, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344686807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344686811, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344688829, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344688862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344688866, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344691284, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344691325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344691330, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714568344692924, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1714568344692979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344692984, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1714568344695932, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714568344695972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344695976, "dur":12617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714568344708630, "dur":1592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1714568344710226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344710230, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1714568344711735, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1714568344711772, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714568344711780, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1714568344712623, "dur":173171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344656091, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344656335, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344659597, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714568344659670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344663351, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714568344664159, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344664188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344664190, "dur":12315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344676550, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344676594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344676599, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344678201, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344678241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344678245, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344680396, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344680435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344680440, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344682670, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344682710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344682715, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344684861, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344684906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344684910, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344688450, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344688486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344688491, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344690606, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344690642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344690646, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714568344693307, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1714568344693344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344693348, "dur":12196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1714568344705581, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714568344705642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344705649, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714568344709361, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1714568344709401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344709405, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1714568344710279, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1714568344710315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714568344710319, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1714568344712854, "dur":172937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344656115, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344656339, "dur":3258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344659598, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714568344659729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344688561, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714568344689340, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714568344689381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344689385, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714568344692526, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714568344692563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344692569, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714568344694764, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714568344694805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344694809, "dur":13928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714568344708776, "dur":1414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714568344710193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344710197, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714568344711858, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714568344711965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714568344711969, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714568344712931, "dur":172859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344656139, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344656346, "dur":3245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344659598, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714568344659704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344676626, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714568344677749, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344677788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344677792, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344679676, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344679718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344679723, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344681544, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344681580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344681584, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344683600, "dur":46129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344729735, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714568344729752, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714568344730876, "dur":154917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344656157, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344656349, "dur":3249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344659598, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1714568344659689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344675681, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1714568344676889, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344676931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344676936, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344678412, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344678456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344678460, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344680366, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344680416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344680421, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344682257, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344682299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344682304, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344684238, "dur":70934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344755176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714568344755184, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714568344755958, "dur":129840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344656184, "dur":168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344656352, "dur":3242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344659598, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714568344659662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344662972, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714568344663781, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1714568344663818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344663822, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1714568344666153, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714568344666212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344666216, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714568344667855, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344667894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344667898, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344669278, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344669345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344669350, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344670421, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344670464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344670468, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344671596, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344671639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344671644, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344672917, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344672952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344672971, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344674043, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344674097, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344674109, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344675443, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344675490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344675513, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344676934, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344676972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344676977, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344678593, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344678632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344678636, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344680465, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344680500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344680505, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344682343, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344682391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344682396, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344684409, "dur":148513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344832926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714568344832932, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714568344833728, "dur":52071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344656200, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344656355, "dur":3238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344659597, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1714568344659676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344666173, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1714568344667102, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1714568344667148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344667191, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1714568344672085, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714568344672124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344672128, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714568344673257, "dur":111520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714568344784781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714568344784789, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714568344785571, "dur":100224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344656223, "dur":135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344656358, "dur":3234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344659598, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1714568344659656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344660372, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1714568344661613, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1714568344661653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344661657, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1714568344662294, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1714568344662321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344662324, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1714568344662979, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1714568344663019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344663024, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1714568344663827, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344663875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344663917, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344665447, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1714568344665493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344665497, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1714568344667508, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344667546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344667579, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344668481, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344668523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344668527, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344669646, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344669696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344669701, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344670624, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344670665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344670669, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344671739, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344671817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344671822, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344673018, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344673058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344673062, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344675100, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344675142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344675146, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344676249, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344676291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344676295, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344677675, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344677714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344677718, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344679519, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344679558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344679562, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344681245, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344681284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344681288, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344683799, "dur":79943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344763750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714568344763755, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714568344764580, "dur":121224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344656243, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344656361, "dur":3245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344659607, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1714568344659708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344677124, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1714568344677989, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344678023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344678041, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344680216, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344680256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344680261, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344682035, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344682082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344682087, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344684062, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344684122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344684127, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344685674, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344685713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344685717, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344687325, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344687368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344687372, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344689558, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344689606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344689610, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714568344693450, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1714568344693498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714568344693502, "dur":48265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1714568344741813, "dur":143988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344656267, "dur":97, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344656364, "dur":3248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344659612, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1714568344659684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344666895, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1714568344667872, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344667908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344667913, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344669163, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344669204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344669210, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344670339, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344670384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344670388, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344671511, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344671570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344671575, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344672718, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344672765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344672770, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344673876, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344673925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344673930, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344674920, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344674957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344675036, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344676108, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344676146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344676168, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344677862, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344677898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344677903, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344679922, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344679961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344679966, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344681803, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344681842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344681846, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344683919, "dur":76225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344760148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714568344760155, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714568344761126, "dur":124671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344656279, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344656367, "dur":3229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344659598, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1714568344659703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344676146, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1714568344677402, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344677469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344677482, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344679226, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344679265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344679269, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344680974, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344681017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344681021, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344682996, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344683046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344683050, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344684980, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344685021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344685025, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344686054, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344686096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344686101, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344688218, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344688261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344688266, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344689759, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344689800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344689805, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344692029, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344692068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344692072, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714568344695320, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1714568344695364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344695368, "dur":13213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1714568344708619, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1714568344708736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344708741, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1714568344709609, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1714568344709649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344709653, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1714568344710621, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1714568344710664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714568344710668, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WIN 10/Downloads/OmoDays_Prototype_v1.3.2/OmoDays Prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1714568344711950, "dur":173842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714568344888906, "dur":1245, "ph":"X", "name": "ProfilerWriteOutput" }
+,

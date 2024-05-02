@@ -1,0 +1,51 @@
+- if diapered -> roomate wont see us peeing o
+- fix problem that we cant diaper while pissing o
+- if leak >= 3 then cant cleanup o
+- add more roomieWatch dialogues
+	- normal leaking o
+	- work events o
+	- changing pants while peeing o
+	- trying to work while peeing o
+	- diapering while peeing o
+	- trying to buy diapers while peeing o
+	- drinking while peeing o
+	- flooding o
+- add event to when you drink more while peeing o
+- add bedwetting (bed interaction) o
+- add achievements o
+- add save system o
+- better leaking system (assigns leak state based on desperation levels) o
+- next dialogue with spacebar o
+- add achievement panel (per achievement) o
+- sound effects
+	> buying items o
+	> getting paid from work o
+- move desperation meter to the front o
+- kick roomie out -> through cheats o
+- cheat panel o
+- bedprotector remover/applier o
+- ban roommate for good o
+- better achievement counter o
+- add achievement panels for the new achievements o
+- option to make roomie pee in mc's diaper (unlocked in omoge commonpath 7)
+- multiple save slots 
+- add games
+	- shooter o
+		- roomie dialogue
+		- diapered dialogue
+	- horror o
+		- roomie dialogue
+		- diapered dialogue
+	- omogame
+		- roomie dialogue
+		- diapered dialogue
+- ability to just wear diapers 
+- more CGs
+	> work scenario
+		- jeans
+		- boxers
+	> game scenario
+	> bedwetting scenario
+
+
+<iframe frameborder="0" src="https://itch.io/embed/2658170?border_width=5&amp;bg_color=ffe6bd&amp;fg_color=790000&amp;border_color=af5c42" width="560" height="175"><a href="https://delicatesea.itch.io/omodays">OmoDays by DelicateSea</a></iframe>
