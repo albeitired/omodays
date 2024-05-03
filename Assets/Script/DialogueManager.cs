@@ -318,9 +318,11 @@ public class DialogueManager : MonoBehaviour
         if(!topDialogue) {
             dialogueText.text = dialogueMessage;
             dialogueBox.SetActive(true);
+            topDialogueBox.SetActive(false);
         } else {
             topDialogueText.text = dialogueMessage;
             topDialogueBox.SetActive(true);
+            dialogueBox.SetActive(false);
         }
     }
 

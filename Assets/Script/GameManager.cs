@@ -228,7 +228,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
                         am.scnDesperatePeeing = true;
                     }
                 }
-                wetYourself();
+                //wetYourself();
             } else {
                 if(isSoaked) {
                     dm.sentences.Enqueue("I start peeing uncontrollably now. The small lake that was sitting below me is now flooding up and releasing its contents into my pants.");
@@ -247,7 +247,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
                         //omoScenarioUnlocked++;
                         am.scnDiaperLeak = true;
                     }
-                    wetYourself();
+                    //wetYourself();
                 } else {          
                     dm.sentences.Enqueue("Before I knew it, what was once a small stream has now become a river. Feeling protected, I decide to just let it all go. I find my crotch area swimming in a lake of hot piss.");
                     if(roomieWatch && !roommateFirstWitnessDiaper) {
@@ -803,8 +803,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
 
     public void workSideHustle() {
         showDesk.SetActive(false);
-        isWorking = true;
         if(!isPeeing) {
+            isWorking = true;
             switch(workEventInd) {
                 case 0:
                     //Just started looking for work

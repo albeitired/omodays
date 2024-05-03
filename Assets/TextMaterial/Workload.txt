@@ -32,7 +32,7 @@
 - add games
 	- shooter o
 		- roomie dialogue
-		- diapered dialogue
+		- diapered dialogue o
 	- horror o
 		- roomie dialogue
 		- diapered dialogue
