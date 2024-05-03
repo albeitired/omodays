@@ -275,6 +275,14 @@ public class DialogueManager : MonoBehaviour
                     sentences.Enqueue("You feel yourself leaking, but you still got it under control.");
                     sentences.Enqueue("Somehow, you manage to not completely lose control over your bladder, but it still costed you your focus and you end up losing the game.");
                     sentences.Enqueue("Afterwards, you shut off the game and stand up to check the damage. You leaked quite a bit and it's showing on your pants.");
+                    if(gm.roomieWatch) {
+                        sentences.Enqueue("Roomie: ...Why even try holding it in?");
+                        sentences.Enqueue("You: Just wanted to try a holding challenge for once.");
+                        sentences.Enqueue("Roomie: So, was succeeding the holding challenge worth losing the game?");
+                        sentences.Enqueue("You: You're so disappointed I didn't fail.");
+                        sentences.Enqueue("Roomie: I really am. Heartbroken, even.");
+                        sentences.Enqueue("You: Better luck next time.");
+                    }
                     dialogueTypeTemp = "";
                     if(gm.leakState == 1) {
                         gm.desperation = gm.tier1desperation;

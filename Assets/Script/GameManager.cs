@@ -1450,6 +1450,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
         //value will be returned when player manages to pick all the right decisions
         if(gameType == "shooter") {
             dm.sentences.Enqueue("You boot up the shooter game and start playing.");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("Your roommate seems interested in the game you're playing and rolls his chair over to watch you.");
+            }
             dm.sentences.Enqueue("You've played a couple of multiplayer shooter games in the past as well, so you're pretty used to it.");
             dm.sentences.Enqueue("Being a multiplayer game, you hop into voice chat to communicate with your teammates with more ease.");
             dm.sentences.Enqueue("You've been playing for quite a long time now, and your desperation only keeps growing.");
@@ -1551,16 +1554,37 @@ public class GameManager : MonoBehaviour, IDataPersistence
         dm.gameWettingBool = true;
         dm.sentences.Enqueue("You: Ah- fuck...");
         dm.sentences.Enqueue("You can feel yourself peeing, and HARD. Your focus faltered and the enemy managed to kill you as a result.");
+        if(roomieWatch) {
+            dm.sentences.Enqueue("Sure enough, you roommate immediately switches his focus to watch you burst.");
+        }
         if(!isProtected) {
             dm.sentences.Enqueue("You just stayed silent, listening to the sounds of your pee as you wait to respawn. You tried cutting off the stream or even slowing it down a bit, but to no avail. You've lost all control of your bladder.");
             dm.sentences.Enqueue("You completely forgot that you're on open mic until someone in your team asks if everything's alright. They can probably hear you peeing.");
             dm.sentences.Enqueue("You immediately mute your mic, slightly panicking. You try to get back to your team on time.");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("Roomie: They heard it..?");
+                dm.sentences.Enqueue("You: ...");
+                dm.sentences.Enqueue("The silence probably gave it away, or maybe it's your reddened face. Anyway, it doesn't take long until you can hear a familiar beating sound.");
+            }
             dm.sentences.Enqueue("After being freed from the torment of your bladder, you can now play even better than before and your team ended up winning.");
             dm.sentences.Enqueue("You: (...A battle lost for the war won, I guess.)");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("You: Maybe I should start charging you for the show.");
+                dm.sentences.Enqueue("Roomie: Right, and what will you do if I don't pay? Stop pissing yourself?");
+                dm.sentences.Enqueue("You: ...");
+                dm.sentences.Enqueue("You: ...Smart bastard.");
+            }
         } else {
             if(!isSoaked) {
                 dm.sentences.Enqueue("You are thankful that you've decided to wear diapers before playing, since you can relax and not worry about any mess being created.");
                 dm.sentences.Enqueue("The sensation of wetting your diapers has a calming effect and you effectively rejoin the team after spawning.");
+                if(roomieWatch) {
+                    if(wearJeans) {
+                        dm.sentences.Enqueue("You can tell that nothing is really showing on your jeans, your roommate only knows you're peeing due to your usage of pretty language before and your visibly relaxed body.");
+                    } else {
+                        dm.sentences.Enqueue("Your roommate is seemingly giving his full attention to the way your diapers slowly change colors from the bottom up.");
+                    }
+                }
                 dm.sentences.Enqueue("It feels like wetting while sitting down diapered makes you pee way longer than usual, as the stream keeps going even after you win the last fight.");
                 dm.sentences.Enqueue("The stream is also smaller, though, so it makes sense. It's also probably due to your current sitting position.");
                 dm.sentences.Enqueue("You lift yourself up from the chair a little to pee better. Once you do, it feels like a flood suddenly came out of you.");
@@ -1624,6 +1648,10 @@ public class GameManager : MonoBehaviour, IDataPersistence
         if(dm.dialogueTypeTemp == "gameDecision1") {
             //Correct option
             dm.sentences.Enqueue("You go directly for the kill and you manage to safely get back to your teammates.");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("Roomie: Nice one.");
+                dm.sentences.Enqueue("You: Too easy.");
+            }
             gameCommonPath(1);
         } else if(dm.dialogueTypeTemp == "gameDecision2") {
             //Wrong option
@@ -1635,6 +1663,10 @@ public class GameManager : MonoBehaviour, IDataPersistence
             if(leakState < 3) {
                 dm.sentences.Enqueue("You feel yourself leak from the surprise attack, but you barely pay it attention since you're focused on killing them.");
                 dm.sentences.Enqueue("You somehow manage to win the duel and return to your team safely.");
+                if(roomieWatch) {
+                    dm.sentences.Enqueue("You can feel that your roommate's gaze has moved from the screen to your crotch... He probably noticed the leaking.");
+                    dm.sentences.Enqueue("He watched for a bit, but since you don't look like you're going to lose control anytime soon, he continues watching your gameplay instead.");
+                }
                 gameCommonPath(2);
             } else {
                 //full on wetting
@@ -1643,6 +1675,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
         } else if(dm.dialogueTypeTemp == "gameDecision3") {
             //Wrong option
             dm.sentences.Enqueue("You decide to let go for a bit. Small leaks of pee are successfully shot out of you, relieving some bladder pressure.");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("Your roommate alternates between watching your expression and your pants, fully invested.");
+            }
             //Leak -> controlled in DM
             if(leakState < 3) {
                 dm.sentences.Enqueue("However, you are in the middle of a major teamfight. The winners of this fight will gain a great amount of advantage for the next one.");

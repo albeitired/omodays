@@ -31,7 +31,7 @@
 - multiple save slots 
 - add games
 	- shooter o
-		- roomie dialogue
+		- roomie dialogue (halfway)
 		- diapered dialogue o
 	- horror o
 		- roomie dialogue
