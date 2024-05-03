@@ -478,7 +478,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
     }
 
     private void updateAchievementStatus() {
-        achievementText.text = omoScenarioUnlocked + "/34";
+        achievementText.text = omoScenarioUnlocked + "/37";
     }
 
     public void showAchievements() {
