@@ -31,11 +31,13 @@
 - multiple save slots 
 - add games
 	- shooter o
-		- roomie dialogue (halfway)
+		- roomie dialogue o
 		- diapered dialogue o
+		- onlydiapered (!wearJeans) dialogue o
 	- horror o
-		- roomie dialogue
-		- diapered dialogue
+		- roomie dialogue (50%)
+		- diapered dialogue (50%)
+		- onlydiapered (!wearJeans) dialogue
 	- omogame
 		- roomie dialogue
 		- diapered dialogue
