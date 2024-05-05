@@ -1471,6 +1471,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
             //dm.sentences.Enqueue("SYSTEM: NOT YET IMPLEMENTED");
             dm.sentences.Enqueue("Since discovering this fetish of yours, you've been wanting to play a game about it for quite a while now.");
             dm.sentences.Enqueue("You boot up the game giddily. The title screen fades in, showing the title of 'Busy Bee' proudly.");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("Your roommate seems interested in the game you're playing and rolls his chair over to watch you.");
+            }
             dm.sentences.Enqueue("The game is one where you play the daily life of a male character. You must eat, drink, go to classes, study, build relationships, and all that.");
             dm.sentences.Enqueue("In such a free world, you realize you can just drink a lot of water to make the character wet himself.");
             dm.sentences.Enqueue("Well, should you play around with this freedom and make your character pee himself everywhere?");
@@ -1826,7 +1829,11 @@ public class GameManager : MonoBehaviour, IDataPersistence
                     dm.sentences.Enqueue("You don't even realize you're peeing yourself until you feel your bum continuously getting wetter.");
                     dm.sentences.Enqueue("You grab your crotch in attempt to stop the stream and it luckily works. Your diapers seem to be half full now, though.");
                     if(roomieWatch) {
-                        dm.sentences.Enqueue("Your roommate sees you grabbing your crotch and you can tell his imaginations is running wild again.");
+                        if(wearJeans) {
+                            dm.sentences.Enqueue("Your roommate sees you grabbing your crotch and you can tell his imagination is running wild again.");
+                        } else {
+                            dm.sentences.Enqueue("Your roommate sees your diapers visibly expanding as you were grabbing it and you can tell his imagination is running wild again.");
+                        }
                         dm.sentences.Enqueue("He quietly starts stroking his dick. You're surprised he can still keep his libido after getting scared by a jumpscare.");
                     }
                 }
@@ -1910,6 +1917,9 @@ public class GameManager : MonoBehaviour, IDataPersistence
             dm.sentences.Enqueue("Seeing the character pee themselves over and over again somewhat turns you on and you start feeling like pissing yourself as well...");
             dm.sentences.Enqueue("You let out a short leak, enough to warm your groin.");
             dm.sentences.Enqueue("You: Mm..");
+            if(roomieWatch) {
+                dm.sentences.Enqueue("You can tell that the way you're enjoying yourself right now is turning your roommate on. He grabs his water bottle and takes a good drink from it.");
+            }
             dm.sentences.Enqueue("Thinking that you've had enough fun making the guy piss all over the place, you navigate back to your home.");
             dm.sentences.Enqueue("After reading all the dialogue you had with your mom and brother for witnessing your 'accident', you change into something dry and end the day.");
             gameCommonPath(5);
@@ -1924,12 +1934,12 @@ public class GameManager : MonoBehaviour, IDataPersistence
                     omogeDiaperRoute();
                 } else {
                     dm.sentences.Enqueue("Watching your character pee in his diaper so many times makes you want to wear one too in real life. Sadly, you don't have any at the moment.");
-                    if(money >= pm.diaperPrice) {
+                    if(money >= pm.diaperPrice && !roomieWatch) {
                         dm.sentences.Enqueue("You do have the money for it, though, so you end up making a quick trip to a nearby store to buy some.");
                         money -= pm.diaperPrice;
                         diaperStock += 8;
                         audioSource.PlayOneShot(gameAudios[13]);
-                        dm.sentences.Enqueue("After that, you continue on with your game...");
+                        dm.sentences.Enqueue("After that, you immediately put one on and continue playing the game.");
                         omogeDiaperRoute();
                     } else {
                         dm.sentences.Enqueue("You don't even have enough money to buy some right now.");
@@ -2042,6 +2052,17 @@ public class GameManager : MonoBehaviour, IDataPersistence
     private void omogeDiaperRoute() {
         isProtected = true;
         diaperStock--;
+        if(roomieWatch) {
+            dm.sentences.Enqueue("All of a sudden, your roommate gets up from his chair and walks out of the room.");
+            dm.sentences.Enqueue("Roomie: Sorry, can you pause for a bit? I'll be back in like 10 mins.");
+            dm.sentences.Enqueue("You: Oh, sure...?");
+            dm.sentences.Enqueue("His actions leave you confused, but you pause the game anyway and wait for him to return.");
+            dm.sentences.Enqueue("Around 10 minutes later, he returns and sits himself next to you.");
+            dm.sentences.Enqueue("Roomie: Thanks for waiting... Really appreciate it. You can continue now.");
+            dm.sentences.Enqueue("You: What did you even do?");
+            dm.sentences.Enqueue("Roomie: Mm... You'll find out later.");
+            dm.sentences.Enqueue("You eye him suspiciously, but since it doesn't seem like he's going to budge, you give up on it and continue with your game.");
+        }
         dm.sentences.Enqueue("When your character is attending class and ends up peeing his diapers...");
         dm.sentences.Enqueue("You pee a little, too.");
         dm.sentences.Enqueue("When your character is hanging out with his friends and secretly fills his diapers with pee mid-conversation...");
@@ -2061,6 +2082,26 @@ public class GameManager : MonoBehaviour, IDataPersistence
         } else {
             dm.sentences.Enqueue("Despite this being your first diapered experience, you feel like it won't be able to hold any more. You carefully stand up, feeling the heavy diaper in your crotch.");
             firstTimeUseDiaper = false;
+        }
+        if(roomieWatch) {
+            dm.sentences.Enqueue("Your roommate has been suspiciously quiet. Usually he'd be jerking off by now, but he's just sitting still.");
+            dm.sentences.Enqueue("You: You good?");
+            dm.sentences.Enqueue("Roomie: ...Huh? Y-Yeah.");
+            dm.sentences.Enqueue("He sounds nervous, so you inspect him even more to find out what he's hiding. It's not really noticable at first, but you feel like your roommate's pants look more swollen than usual.");
+            if(am.scnOmogeRoomieDiaper) {
+                dm.sentences.Enqueue("Well, you do know that your roommate actually has some diapers stocked up. Could it be...?");
+                dm.sentences.Enqueue("You: Are you wearing diapers?");
+                dm.sentences.Enqueue("Roomie: Wha- How did you know?");
+                dm.sentences.Enqueue("You: Just thinking that your pants look fuller than usual. Also from the unusual behavior you're showing.");
+                dm.sentences.Enqueue("Roomie: I see... Well, alright. You caught me.");
+                dm.sentences.Enqueue("You: Are you peeing?");
+                dm.sentences.Enqueue("Roomie: ...Mm. Almost done.");
+                dm.sentences.Enqueue("You: So, you wear your diapers often?");
+                dm.sentences.Enqueue("Roomie: Uh, only when I feel like it...");
+            } else {
+                dm.sentences.Enqueue("You figure it must be just your imagination, though. Other than that, you find nothing odd about him.");
+                dm.sentences.Enqueue("You: If you say so... Well, I'm gonna change my diapers now.");
+            }
         }
         dm.sentences.Enqueue("You slightly waddle to the bathroom and change into fresh diapers after cleaning yourself up.");
     }
@@ -2130,7 +2171,11 @@ public class GameManager : MonoBehaviour, IDataPersistence
             dm.sentences.Enqueue("You carefully try to walk around the cabin. You feel like your heart isn't ready yet for what you'll encounter in the vast forest. However...");
             dm.sentences.Enqueue("A sound was heard behind you out of nowhere and your headphones are making it sound very realistic.");
             dm.sentences.Enqueue("You feel yourself leaking slightly.");
-            dm.sentences.Enqueue("It was just a spurt of pee and it doesn't do much damage to your pants.");
+            if(!isProtected) {
+                dm.sentences.Enqueue("It was just a spurt of pee and it doesn't do much damage to your pants.");
+            } else {
+                dm.sentences.Enqueue("It was just a spurt of pee and it doesn't wet your diapers that much.");
+            }
             if(roomieWatch) {
                 dm.sentences.Enqueue("Your roommate doesn't seem to notice either. He can't hear the voice, anyway.");
             }
@@ -2140,20 +2185,28 @@ public class GameManager : MonoBehaviour, IDataPersistence
             dm.sentences.Enqueue("However, no matter how much you walk, the scenery in front of you doesn't seem to change.");
             dm.sentences.Enqueue("You: (Is it a loop?)");
             dm.sentences.Enqueue("Just as you're thinking that, the forest turns dark all of a sudden. Then suddenly, a disfigured face smiles at you, filling the screen.");
+            dm.sentences.Enqueue("You jump and a warm sensation fills your crotch.");
             if(roomieWatch) {
                 dm.sentences.Enqueue("From the corner of your eyes, you can see that your roommate also jumped in surprise.");
             }
-            dm.sentences.Enqueue("You jump and a warm sensation fills your crotch.");
             if(isHorrorMax) {
                 if(!isProtected) {
                     dm.sentences.Enqueue("You don't realize it immediately, but when your hand falls to your thighs and feels something wet, that's when it hits you.");
                 } else { 
-                    dm.sentences.Enqueue("");
+                    dm.sentences.Enqueue("You don't realize it immediately, but when you feel the soft padding under you get wetter and warmer, that's when it hits you.");
                 }
                 dm.sentences.Enqueue("Realizing you're peeing yourself, you grab at your crotch in attempt to stop the flow. Luckily, it works.");
                 dm.sentences.Enqueue("You: (No way... Almost wet myself completely just from that...)");
                 if(roomieWatch) {
-                    dm.sentences.Enqueue("Your roommate sees you grabbing your crotch and you can tell his imaginations is running wild again.");
+                    if(!isProtected) {
+                        dm.sentences.Enqueue("This time, your roommate doesn't comment on anything and only stares at your glistening wet pants.");
+                    } else {
+                        if(wearJeans) {
+                            dm.sentences.Enqueue("Your roommate sees you grabbing your crotch and you can tell his imagination is running wild again.");
+                        } else {
+                            dm.sentences.Enqueue("Your roommate sees your diapers visibly expanding as you were grabbing it and you can tell his imagination is running wild again.");
+                        }
+                    }
                     dm.sentences.Enqueue("He quietly starts stroking his dick. You're surprised he can still keep his libido after getting scared by a jumpscare.");
                 }
             } else {
@@ -2167,19 +2220,44 @@ public class GameManager : MonoBehaviour, IDataPersistence
             dm.sentences.Enqueue("You try to get a good look on the girl with the zoom-in feature, but after a while of inspecting her, she stops singing and turns to look at you.");
             dm.sentences.Enqueue("Then her face slowly deforms alongside with her body. You stop the camera mode in fear, and turns around to leave only to find the deformed students and teachers staring at you.");
             if(isHorrorMax) {
-                dm.sentences.Enqueue("You just start pissing yourself at the sight, urine rapidly gushing out of you and soaking your pants.");
-                dm.sentences.Enqueue("Too scared to continue, you pause the game. You look down to watch yourself pee while trying to calm down.");
-                dm.sentences.Enqueue("You try to hold it, but your muscles just won't let you anymore, so you opt to just relax and let it flow.");
+                if(!isProtected) {
+                    dm.sentences.Enqueue("You just start pissing yourself at the sight, urine rapidly gushing out of you and soaking your pants.");
+                    dm.sentences.Enqueue("Too scared to continue, you pause the game. You look down to watch yourself pee while trying to calm down.");
+                    dm.sentences.Enqueue("You try to hold it, but your muscles just won't let you anymore, so you opt to just relax and let it flow.");
+                } else {
+                    //diapered
+                    dm.sentences.Enqueue("You just start pissing yourself at the sight, urine rapidly gushing out of you and soaking your diapers.");
+                    dm.sentences.Enqueue("Too scared to continue, you pause the game. Your senses focus to the sensation of losing control.");
+                    dm.sentences.Enqueue("You see no point in trying to stop the flow. The feeling of your diaper expanding and hugging you warmly is very comforting.");
+                }
             } else {
                 dm.sentences.Enqueue("You realize that you've started pissing yourself. You pause the game and quickly grabs your crotch to try and hold it in.");
-                dm.sentences.Enqueue("Pee gushes over your hand but you find no success in stopping it whatsoever.");
-                dm.sentences.Enqueue("The flow only stopped when you've already let out about 80% of your bladder and your pants are already fully soaked. You sigh and decide to just let it all out.");
+                if(!isProtected) {
+                    dm.sentences.Enqueue("Pee gushes over your hand but you find no success in stopping it whatsoever.");
+                    dm.sentences.Enqueue("The flow only stopped when you've already let out about 80% of your bladder and your pants are already fully soaked. You sigh and decide to just let it all out.");
+                } else {
+                    dm.sentences.Enqueue("Your diapers only continue expanding and it feels impossible to stop the stream now.");
+                    dm.sentences.Enqueue("The flow only stopped when you've already let out about 80% of your bladder and you feel like your lower regions are already fully submerged in pee. You see no point in holding and decide to just let it all out.");
+                }
             }
             dm.sentences.Enqueue("Still peeing yourself, you decide that this distracted you enough from the fear and you continue playing the game.");
             dm.sentences.Enqueue("The girl is now chasing you and you just run aimlessly until you notice that the school's graveyard has been turned into a maze.");
             dm.sentences.Enqueue("You remember a pattern mentioned somewhere previously and advance through it using the knowledge.");
-            dm.sentences.Enqueue("After great effort, you finally reach the end of the maze, in which you see a familiar cabin from the beginning. You enter and the ending sequence of the game plays out.");
+            dm.sentences.Enqueue("After great effort, you finally reach the end of the maze, in which you see a familiar cabin from the beginning. You enter and the ending sequence of the game plays out as your stream finally tapers off.");
             dm.sentences.Enqueue("After you reach the credits, you finally turn off the game.");
+            if(wetTimes >= 3) {
+                if(!isProtected) {
+                    dm.sentences.Enqueue("You've just had a genuine fear wetting and this is turning you on. You start rubbing yourself and playing with the puddle of piss sitting under you.");
+                } else {
+                    //diapered
+                    dm.sentences.Enqueue("You've just had a genuine fear wetting and this is turning you on. You start rubbing yourself and playing with your filled diapers.");
+                }
+                if(roomieWatch) {
+                    dm.sentences.Enqueue("Your roommate watches you intensely while still doing his thing. He deliberately controls himself so the both of you can come together. You find it pretty cute.");
+                }
+            } else {
+                dm.sentences.Enqueue("You: Sigh... I wet myself from playing a game...");
+            }
             wetYourself();
             dm.dialogueTypeTemp = "";
             desperation = 0;

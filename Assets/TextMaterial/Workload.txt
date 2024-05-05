@@ -35,12 +35,12 @@
 		- diapered dialogue o
 		- onlydiapered (!wearJeans) dialogue o
 	- horror o
+		- roomie dialogue o
+		- diapered dialogue o
+		- onlydiapered (!wearJeans) dialogue o
+	- omogame
 		- roomie dialogue (50%)
 		- diapered dialogue (50%)
-		- onlydiapered (!wearJeans) dialogue
-	- omogame
-		- roomie dialogue
-		- diapered dialogue
 - ability to just wear diapers 
 - more CGs
 	> work scenario

@@ -206,6 +206,7 @@ public class DialogueManager : MonoBehaviour
         if(sentence == "After you finish peeing, you walk back to your room, noticing the trail of pee leading straight to the restroom. You can only hope it dries by morning time." ||
             sentence == "You grab your crotch in surprise in attempt to stop the stream and it works." ||
             sentence == "You grab your crotch in attempt to stop the stream and it luckily works. Your pants are already very wet now, though." ||
+            sentence == "You grab your crotch in attempt to stop the stream and it luckily works. Your diapers seem to be half full now, though." ||
             sentence == "You: (No way... Almost wet myself completely just from that...)" ||
             sentence == "After you reach the credits, you finally turn off the game." ||
             sentence == "You watch the ending of the game soaked in your own piss. After it ends, you finally turn off the game and start the clean up phase." ||
