@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
     public Text[] itemStockText;
     private string selectedItem, omoRank;
     public int leakState, tempdesperation, tier1desperation, tier2desperation, tier3desperation, tier4desperation;
+    public bool interactionDiaperPee;
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +72,13 @@ public class GameManager : MonoBehaviour, IDataPersistence
             showRoommate.SetActive(true);
         }
         
+        if(desperation >= tier4desperation) {
+            //set desperation & leakstate to 0 & isSoaked to true;
+            desperation = 0;
+            leakState = 0;
+            isSoaked = true;
+        }
+
         if(isSoaked) {
             showCleanUp.SetActive(true);
         }
@@ -303,6 +311,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
         this.boughtOmoge = data.boughtOmoge;
         this.canBuyOmoge = data.canBuyOmoge;
         this.introDone = data.introDone;
+        this.interactionDiaperPee = data.interactionDiaperPee;
     }
 
     public void SaveData(ref PlayerData data) {
@@ -331,6 +340,7 @@ public class GameManager : MonoBehaviour, IDataPersistence
         data.boughtOmoge = this.boughtOmoge;
         data.canBuyOmoge = this.canBuyOmoge;
         data.introDone = this.introDone;
+        data.interactionDiaperPee = this.interactionDiaperPee;
     }
 
     IEnumerator checkDelay() {
@@ -2045,7 +2055,6 @@ public class GameManager : MonoBehaviour, IDataPersistence
             dm.sentences.Enqueue("You both clean up the evidence of your accidents and sleep.");
             gameCommonPath(7);
         }
-
         dm.DisplayCurrSentence();
     }
 
@@ -2093,17 +2102,48 @@ public class GameManager : MonoBehaviour, IDataPersistence
                 dm.sentences.Enqueue("You: Are you wearing diapers?");
                 dm.sentences.Enqueue("Roomie: Wha- How did you know?");
                 dm.sentences.Enqueue("You: Just thinking that your pants look fuller than usual. Also from the unusual behavior you're showing.");
-                dm.sentences.Enqueue("Roomie: I see... Well, alright. You caught me.");
+                dm.sentences.Enqueue("Roomie: ...Well, alright. You caught me.");
                 dm.sentences.Enqueue("You: Are you peeing?");
-                dm.sentences.Enqueue("Roomie: ...Mm. Almost done.");
-                dm.sentences.Enqueue("You: So, you wear your diapers often?");
+                dm.sentences.Enqueue("Roomie: Mm, yeah. Almost done.");
+                dm.sentences.Enqueue("This is such an unexpected scenario and it excites you very much.");
+                dm.sentences.Enqueue("You: Do you wear diapers often?");
                 dm.sentences.Enqueue("Roomie: Uh, only when I feel like it...");
+                dm.sentences.Enqueue("He looks kinda embarrassed, so I stare at his pants in silence to see what is feels like to be on the observer side. This causes him to be even more flustered and he can't even look at me.");
+                dm.sentences.Enqueue("After a while, he finally moves his head to glance down. It seems like he's done.");
+                dm.sentences.Enqueue("You: Done peeing?");
+                dm.sentences.Enqueue("I deliberately word it that way to tease him. It works and he nods with a slight blush.");
+                dm.sentences.Enqueue("He stands up carefully and I can see his swollen bottom that shows just how much he peed. He rubs around to make sure there are no leaks.");
+                dm.sentences.Enqueue("You: Looks pretty full. Maybe we should change together in the bathroom. Makes the disposal more efficient, too.");
+                dm.sentences.Enqueue("Roomie: .................Sure...");
+                if(wearJeans) {
+                    dm.sentences.Enqueue("From the look of it, the idea greatly turns him on. You both enter the bathroom and take off your pants, revealing the state of diapers underneath.");
+                } else {
+                    dm.sentences.Enqueue("From the look of it, the idea greatly turns him on. You both enter the bathroom and your roommate takes off his pants, finally revealing the state of his diapers.");
+                }
+                if(am.scnRoomieIntoDiaper) {
+                    dm.sentences.Enqueue("You: (Come to think of it, I let him touch my diapers once... It should be fine if I touch his too, right?)");
+                    dm.sentences.Enqueue("You extend your hand forward and slowly rub the front and underside of his diaper. You can feel the warmth of his urine through the plastic material.");
+                    dm.sentences.Enqueue("You can feel your roommate flinch, but he doesn't do or say anything about it. It's an unexpected reaction, honestly.");
+                    dm.sentences.Enqueue("You start pressing and playing with the gel-like texture, then all of a sudden, you can feel the diaper expanding even more with a tickling sensation in your hand.");
+                    dm.sentences.Enqueue("Roomie: Uh, turns out I haven't emptied everything out...");
+                    dm.sentences.Enqueue("You focus all your senses to savor this experience to its fullest.");
+                    dm.sentences.Enqueue("...");
+                    dm.sentences.Enqueue("Roomie: I think I'm actually done now...");
+                    dm.sentences.Enqueue("You: That so? Alright.");
+                    dm.sentences.Enqueue("You finally take your hand off his diaper. He's visibly embarrassed to the bones.");
+                }
+                dm.sentences.Enqueue("You: Let's start cleaning up, then.");
             } else {
                 dm.sentences.Enqueue("You figure it must be just your imagination, though. Other than that, you find nothing odd about him.");
                 dm.sentences.Enqueue("You: If you say so... Well, I'm gonna change my diapers now.");
+                dm.sentences.Enqueue("You slightly waddle to the bathroom and change into fresh diapers after cleaning yourself up.");
             }
+            dm.sentences.Enqueue("You prepare a garbage bag to dispose of the soaked diapers.");
+            dm.sentences.Enqueue("You tie a knot to seal the bag and throw it to the garbage container outside after washing up and changing into fresh diapers.");
+        } else {
+            //not roomiewatch
+            dm.sentences.Enqueue("You slightly waddle to the bathroom and change into fresh diapers after cleaning yourself up.");
         }
-        dm.sentences.Enqueue("You slightly waddle to the bathroom and change into fresh diapers after cleaning yourself up.");
     }
 
     public void gameSecondOption() {
@@ -2492,8 +2532,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
                     if(am.scnOmogeLendADiaper) {
                         dm.sentences.Enqueue("You: (That scene where the friend peed in the main character's diaper is pretty hot...)");
                         if(roomieWatch) {
-                            dm.sentences.Enqueue("You glance at the roommate behind you, planning to entice him into doing the same.");
-                            dm.sentences.Enqueue("SYSTEM: This scenario is on progress.");
+                            dm.sentences.Enqueue("You glance at the roommate beside you, planning to entice him into doing the same someday...");
+                            interactionDiaperPee = true;
                         }
                     }
                 } else {

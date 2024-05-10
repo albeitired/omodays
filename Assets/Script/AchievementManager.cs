@@ -11,10 +11,11 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
                 scnDrinkWhilePee, scnDiaperWhilePee, scnBuyDiaperWhilePee, scnFreePeeing, scnRoomieIntoDiaper,
                 scnPlayWithPee, scnRoomieAwakening, scnDescribeLeakyDiapers, scnDescribeDiaperPee, scnPeeOnBed,
                 scnDiaperLeakOnBed, scnDiaperPeeOnBed, scnWaterBottlePee, scnHalfMadeIt, scnWetTheBed,
-                scnPreventWetBed, scnMorningPeeOnBed, scnHorrorHalfPee, scnHorrorFullPee;
+                scnPreventWetBed, scnMorningPeeOnBed, scnHorrorHalfPee, scnHorrorFullPee, scnOmogeRoomieDiaper,
+                scnOmogeLendADiaper, scnOmogeSecretPee;
 
     //new achievements
-    public bool scnOmogeRoomieDiaper, scnOmogeLendADiaper, scnOmogeSecretPee;
+    //public bool 
     
     //control disabled / enabled
     public Image[] achievementPlates;
@@ -26,7 +27,8 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
     //public GameObject achievementPlate;
 
     public void LoadData(PlayerData data) {
-        this.scnDiaperPee = data.scnDiaperPee;;
+        this.scnDesperatePeeing = data.scnDesperatePeeing;
+        this.scnDiaperPee = data.scnDiaperPee;
         this.scnDiaperLeak = data.scnDiaperLeak;
         this.scnCaughtWetPants = data.scnCaughtWetPants;
         this.scnCaughtWearingDiapers = data.scnCaughtWearingDiapers;
@@ -65,6 +67,7 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
     }
 
     public void SaveData(ref PlayerData data) {
+        data.scnDesperatePeeing = this.scnDesperatePeeing; 
         data.scnDiaperPee = this.scnDiaperPee;
         data.scnDiaperLeak = this.scnDiaperLeak;
         data.scnCaughtWetPants = this.scnCaughtWetPants;
