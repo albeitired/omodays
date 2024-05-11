@@ -149,7 +149,8 @@ public class DialogueManager : MonoBehaviour
     private void checkTriggers(string sentence) {
         if(sentence == "After you reach the credits, you finally turn off the game." ||
             sentence == "You both clean up the evidence of your accidents and sleep." ||
-            sentence == "Both of you talk for a bit more before going back to your tents to try and sleep a bit more before sunrise.") {
+            sentence == "Both of you talk for a bit more before going back to your tents to try and sleep a bit more before sunrise." ||
+            sentence == "You watch the ending of the game soaked in your own piss. After it ends, you finally turn off the game and start the clean up phase.") {
             gm.bgmAudioSource.clip = gm.gameBGM[0];
             gm.bgmAudioSource.Play();
         }
@@ -212,7 +213,8 @@ public class DialogueManager : MonoBehaviour
             sentence == "You watch the ending of the game soaked in your own piss. After it ends, you finally turn off the game and start the clean up phase." ||
             sentence == "Once you're done, you wiggle your hips slightly, making the pee stored below slosh around." ||
             sentence == "After peeing it all out, you play with yourself for a bit before heading to the bathroom to clean up." ||
-            sentence == "Your friend goes in his tent and takes a bucket out just as you finish peeing. Both of you then proceed to 'wash' the logs and the ground with water.") {
+            sentence == "Your friend goes in his tent and takes a bucket out just as you finish peeing. Both of you then proceed to 'wash' the logs and the ground with water." ||
+            sentence == "You continue playing the game afterwards, making sure to drink a lot of water in the process.") {
             gm.audioSource.Stop();
         }
         

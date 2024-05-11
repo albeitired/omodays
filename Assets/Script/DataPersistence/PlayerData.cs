@@ -20,7 +20,7 @@ public class PlayerData
                 scnPlayWithPee, scnRoomieAwakening, scnDescribeLeakyDiapers, scnDescribeDiaperPee, scnPeeOnBed,
                 scnDiaperLeakOnBed, scnDiaperPeeOnBed, scnWaterBottlePee, scnHalfMadeIt, scnWetTheBed,
                 scnPreventWetBed, scnMorningPeeOnBed, scnHorrorHalfPee, scnHorrorFullPee,
-                scnOmogeRoomieDiaper, scnOmogeLendADiaper, scnOmogeSecretPee;
+                scnOmogeRoomieDiaper, scnOmogeLendADiaper, scnOmogeSecretPee, scnOmogeRunningPee;
     public bool interactionDiaperPee;
 
     public PlayerData() {
@@ -87,6 +87,7 @@ public class PlayerData
         this.scnOmogeRoomieDiaper = false;
         this.scnOmogeLendADiaper = false;
         this.scnOmogeSecretPee = false;
+        this.scnOmogeRunningPee = false;
         this.interactionDiaperPee = false;
     }
 

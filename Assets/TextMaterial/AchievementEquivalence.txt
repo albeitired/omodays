@@ -24,7 +24,7 @@ Hint: Have your roommate catch you peeing yourself
 
 scnRoomieIntoOmo >> Omo Converter
 Your roommate confesses his interest in wetting
-Hint: After discovering your fetish, re-wet your soaked pants and have your roommate catch you leaking
+Hint: After discovering your fetish and having your roommate catch you wetting yourself at least once before, re-wet your soaked pants and have your roommate catch you leaking.
 
 scnPlayWithClothes >> Golden Wash
 Changed your clothes mid-pee
@@ -76,55 +76,77 @@ Hint: Let yourself go after discovering your fetish
 
 scnRoomieIntoDiaper >> Diaper Converter
 Your roommate likes seeing you in diapers
-Hint: 
+Hint: Flood your diapers on Roomie Watch mode
 
 scnPlayWithPee >> Double Shot
 Played with yourself after wetting
+Hint: Pee yourself on Roomie Watch mode
 
 scnRoomieAwakening >> Growing Interest
 Your roommate wants to watch you pee yourself
+Hint: Pretty much a set with unlocking Roomie Watch. 
+After discovering your fetish and having your roommate catch you wetting yourself at least once before, re-wet your soaked pants and have your roommate catch you leaking.
 
 scnDescribeLeakyDiapers >> Flooding Commentary
 Described the feeling of leaky diapers to your roommate
+Hint: Re-wet your diapers on Roomie Watch mode
 
 scnDescribeDiaperPee >> Diapered Commentary
 Described the feeling of peeing in your diapers to your roommate
+Hint: Wet your diapers on Roomie Watch mode
 
 scnPeeOnBed >> Bed Of Piss
 Climb on to your bed as pee still flows out of you
+Hint: Interact with your bed while peeing your pants (must have mattress protector equipped)
 
 scnDiaperLeakOnBed >> Messy Bedwetting
 Climb on to your bed while leaking through your diapers
+Hint: Interact with your bed while peeing your already soaked diapers (must have mattress protector equipped)
 
 scnDiaperPeeOnBed >> Full Body Relaxation
 Climb on to your bed while peeing your diapers
+Hint: Interact with your bed while peeing your diapers (must have mattress protector equipped)
 
 scnWaterBottlePee >> Cannot Be Contained
 Overfilled a water bottle with your pee
+Hint: Go to sleep with > 75 desperation and without mattress protector on Roomie Watch mode
 
 scnHalfMadeIt >> Golden Trails
 Left a trail of pee as you tried to go to the bathroom
+Hint: Go to sleep with > 75 desperation and without mattress protector
 
 scnWetTheBed >> Bedwetter
 Wet the bed
+Hint: Go to sleep with > 75 desperation and with mattress protector
 
 scnPreventWetBed >> Veteran Bedwetter
 Filled your diaper throughout the night
+Hint: Go to sleep with > 75 desperation wearing diapers
 
 scnMorningPeeOnBed >> Voluntary Bedwetting
 Pissed the bed after waking up dry
+Hint: Go to sleep with <= 75 desperation
 
 scnHorrorHalfPee >> Leaky Terror
 Didn't lose control while playing a horror game
+Hint: Play horror game during the day -> Look around -> Talk to the girl
 
 scnHorrorFullPee >> Fear Wetting
 Lost all bladder control while playing a horror game
+Hint: Play horror game during the night
 
 scnOmogeRoomieDiaper >> Diaper Trade
 Put on a show for your diaper benefactor
+Hint: On Roomie Watch mode: have no diaper in stock and choose the diaper route in-game
 
 scnOmogeLendADiaper >> Transferred Warmth
 Your friend peed inside your diaper on an omoge
+Hint: Diaper route in omoge and don't research horror stories
 
 scnOmogeSecretPee >> Peessassin
 Peed stealthily without getting caught on an omoge
+Hint: Pants route in omoge and don't research horror stories
+
+scnOmogeRunningPee >> Wet Run
+Ran away pissing yourself on an omoge
+Hint: Research horror stories

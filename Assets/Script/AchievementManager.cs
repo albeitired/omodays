@@ -12,7 +12,7 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
                 scnPlayWithPee, scnRoomieAwakening, scnDescribeLeakyDiapers, scnDescribeDiaperPee, scnPeeOnBed,
                 scnDiaperLeakOnBed, scnDiaperPeeOnBed, scnWaterBottlePee, scnHalfMadeIt, scnWetTheBed,
                 scnPreventWetBed, scnMorningPeeOnBed, scnHorrorHalfPee, scnHorrorFullPee, scnOmogeRoomieDiaper,
-                scnOmogeLendADiaper, scnOmogeSecretPee;
+                scnOmogeLendADiaper, scnOmogeSecretPee, scnOmogeRunningPee;
 
     //new achievements
     //public bool 
@@ -64,6 +64,7 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
         this.scnOmogeRoomieDiaper = data.scnOmogeRoomieDiaper;
         this.scnOmogeLendADiaper = data.scnOmogeLendADiaper;
         this.scnOmogeSecretPee = data.scnOmogeSecretPee;
+        this.scnOmogeRunningPee = data.scnOmogeRunningPee;
     }
 
     public void SaveData(ref PlayerData data) {
@@ -104,6 +105,7 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
         data.scnOmogeRoomieDiaper = this.scnOmogeRoomieDiaper;
         data.scnOmogeLendADiaper = this.scnOmogeLendADiaper;
         data.scnOmogeSecretPee = this.scnOmogeSecretPee;
+        data.scnOmogeRunningPee = this.scnOmogeRunningPee;
     }
 
     void Start() {
@@ -519,6 +521,17 @@ public class AchievementManager : MonoBehaviour, IDataPersistence
             achievementPlates[36].color = new Color32(67,24,7,255);
             achievementDescriptions[36].color = new Color32(255,255,255,255);
             achievementDescriptions[36].text = "Unobtained";
+        }
+
+        if(scnOmogeRunningPee) {
+            achievementPlates[37].color = new Color32(255,217,160,255);
+            achievementDescriptions[37].color = new Color32(113,48,0,255);
+            achievementDescriptions[37].text = "Ran away pissing yourself on an omoge";
+            gm.omoScenarioUnlocked++;
+        } else if (!scnOmogeRunningPee) {
+            achievementPlates[37].color = new Color32(67,24,7,255);
+            achievementDescriptions[37].color = new Color32(255,255,255,255);
+            achievementDescriptions[37].text = "Unobtained";
         }
     }
 

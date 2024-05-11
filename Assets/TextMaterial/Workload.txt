@@ -31,19 +31,24 @@
 - multiple save slots 
 - add games
 	- shooter o
-		- roomie dialogue
+		- roomie dialogue o
 		- diapered dialogue o
+		- soaked dialogue o
 	- horror o
-		- roomie dialogue
-		- diapered dialogue
+		- roomie dialogue o
+		- diapered dialogue o
+		- soaked dialogue
+			- first option o
+			- second option o
 	- omogame
-		- roomie dialogue
-		- diapered dialogue
+		- roomie dialogue o
+		- diapered dialogue o
+		- soaked dialogue o
 - ability to just wear diapers 
 - more CGs
 	> work scenario
-		- jeans
-		- boxers
+		- jeans o
+		- boxers o
 	> game scenario
 	> bedwetting scenario
 
